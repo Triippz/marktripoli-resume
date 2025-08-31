@@ -3,6 +3,7 @@
   "basics": {
     "name": "Mark Tripoli",
     "email": "me@marktripoli.com",
+    "phone": "(610) 908-2901",
     "location": {
       "city": "Lancaster",
       "region": "PA",
@@ -21,7 +22,12 @@
     {
       "name": "Picogrid",
       "position": "Engineering Manager",
-      "location": "Remote",
+      "location": {
+        "city": "El Segundo",
+        "region": "CA",
+        "countryCode": "US",
+        "geo": { "lat": 33.9164, "lon": -118.4041 }
+      },
       "startDate": "2024-09",
       "endDate": "",
       "summary": "Led engineering org and technical vision for Legion as a modular integration layer, enabling interoperability across defense/commercial systems and unlocking classified deployments.",
@@ -37,7 +43,12 @@
     {
       "name": "HubSpot",
       "position": "Technical Lead",
-      "location": "Remote",
+      "location": {
+        "city": "Cambridge",
+        "region": "MA",
+        "countryCode": "US",
+        "geo": { "lat": 42.3736, "lon": -71.1097 }
+      },
       "startDate": "2022-06",
       "endDate": "2024-09",
       "summary": "Drove the technical vision for HubSpot’s Developer Platform, scaling reliability and developer experience.",
@@ -52,7 +63,12 @@
     {
       "name": "HubSpot",
       "position": "Senior Software Engineer",
-      "location": "Remote",
+      "location": {
+        "city": "Cambridge",
+        "region": "MA",
+        "countryCode": "US",
+        "geo": { "lat": 42.3736, "lon": -71.1097 }
+      },
       "startDate": "2022-02",
       "endDate": "2022-06",
       "summary": "Delivered observability infrastructure for HubSpot’s Private Applications.",
@@ -63,7 +79,10 @@
     {
       "name": "Ghillied Up",
       "position": "Technical Co-Founder",
-      "location": "Remote",
+      "location": {
+        "city": "Remote",
+        "countryCode": "US"
+      },
       "startDate": "2022-02",
       "endDate": "2023-06",
       "summary": "Built a veteran-focused anonymous discussion platform.",
@@ -75,7 +94,12 @@
     {
       "name": "Comcast",
       "position": "Software Engineer",
-      "location": "Philadelphia, PA",
+      "location": {
+        "city": "Philadelphia",
+        "region": "PA",
+        "countryCode": "US",
+        "geo": { "lat": 39.9526, "lon": -75.1652 }
+      },
       "startDate": "2020-01",
       "endDate": "2022-02",
       "summary": "Developed tools to modernize Comcast Test Labs operations.",
@@ -87,7 +111,12 @@
     {
       "name": "Amtrak",
       "position": "Senior Software Engineer",
-      "location": "Philadelphia, PA",
+      "location": {
+        "city": "Philadelphia",
+        "region": "PA",
+        "countryCode": "US",
+        "geo": { "lat": 39.9526, "lon": -75.1652 }
+      },
       "startDate": "2016-09",
       "endDate": "2020-12",
       "summary": "Built and supported mission-critical applications for Amtrak operations."
@@ -96,7 +125,12 @@
   "education": [
     {
       "institution": "The Pennsylvania State University",
-      "location": "State College, PA",
+      "location": {
+        "city": "State College",
+        "region": "PA",
+        "countryCode": "US",
+        "geo": { "lat": 40.7934, "lon": -77.8600 }
+      },
       "area": "Information, Science and Technology - Design and Development",
       "studyType": "BS",
       "endDate": "2021-12"
@@ -126,6 +160,19 @@
     {
       "name": "Compliance",
       "keywords": ["FedRAMP/IL5/IL6 Deployments", "NIST 800-53", "NIST 800-171", "NIST 800-207"]
+    }
+  ],
+  "military": [
+    {
+      "organization": "United States Marine Corps",
+      "position": "E4 - Corporal, CBRN Defense Specialist",
+      "location": {
+        "region": "California",
+        "countryCode": "US",
+        "geo": { "lat": 36.7783, "lon": -119.4179 }
+      },
+      "startDate": "2009-06",
+      "endDate": "2014-04"
     }
   ],
   "languages": [],
